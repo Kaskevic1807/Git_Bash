@@ -1,0 +1,35 @@
+Ex 2:
+1: $ touch bash2.txt
+2: $ cd
+3: -
+4: $ mkdir "test 3"
+5: $ touch "test 3"/4 "test 3"/5 "test 3"/6
+$ printf "row1 \n row2 \n row3 \n row4" | tee "test 3"/4 "test 3"/5 "test 3"/6
+6: $ grep "row2" "test 3"/5
+7: $ grep "row" "test 3"/*
+8: $ wc -l test3/* | tail -n 1
+9: $ find "test 3" -name "5"
+10: $ find "test 3" -name "5" -delete
+11: $ echo "test" >> "test 3"/4
+12: $ sed -i "s/test/fail"
+13: $ echo -e "test\n" >> test3/4
+14: $ ps -ef
+15: $ kill 666
+16: $ ping rusau.net
+17: $ ping -c 5 rusau.net
+18: $ curl -X GET "https://petstore.swagger.io/v2/pet/findByStatus?status=available"
+19: $ curl -X POST "https://petstore.swagger.io/v2/user" \
+     -H "Content-Type: application/json" \
+     -d '{
+           "id": 123,
+           "username": "newuser",
+           "firstName": "John",
+           "lastName": "Doe",
+           "email": "johndoe@example.com",
+           "password": "password123",
+           "phone": "1234567890",
+           "userStatus": 1
+         }'
+
+
+
